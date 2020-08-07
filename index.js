@@ -1,6 +1,6 @@
 // Code your solutions in this file
-function writeCards(array ){
+function writeCards(array, word){
   for(let name of array){
-      console.log(`Thank you, ${name}, for the wonderful birthday gift!`)
+      console.log(`Thank you, ${name}, for the wonderful ${} gift!`)
   }
 }
