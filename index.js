@@ -1,8 +1,8 @@
 // Code your solutions in this file
 function writeCards(array, word){
   messages = []
-  for(let name of array){
-      console.log(`Thank you, ${name}, for the wonderful ${word} gift!`);
+  for(i=0; i<array.length, i++){
+      messages[i] = `Thank you, ${array[i]}, for the wonderful ${word} gift!`;
   }
-  return array;
+  return messages;
 }
